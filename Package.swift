@@ -36,5 +36,5 @@ let package = Package(name: "AFNetworking",
                                 ],
                       targets: [.target(name: "AFNetworking",
                                         path: "AFNetworking",
-                                        sources: "UIKit+AFNetworking",
+                                        sources: ["UIKit+AFNetworking"],
                                         publicHeadersPath: "")])
