@@ -30,8 +30,11 @@ let package = Package(name: "AFNetworking",
                                   .iOS(.v9),
                                   .tvOS(.v9),
                                   .watchOS(.v2)],
-                      products: [.library(name: "AFNetworking",
-                                          targets: ["AFNetworking"])],
+                      products: [
+                                    .library(name: "AFNetworking",
+                                          targets: ["AFNetworking"])
+                                ],
                       targets: [.target(name: "AFNetworking",
                                         path: "AFNetworking",
+                                        sources: "UIKit+AFNetworking",
                                         publicHeadersPath: "")])
