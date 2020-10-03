@@ -32,7 +32,7 @@ let package = Package(name: "AFNetworking",
                                   .watchOS(.v2)],
                       products: [.library(name: "AFNetworking",
                                     targets: ["AFNetworking"]),
-                                .library(name: "AFNetworking",
+                                .library(name: "UIKit_AFNetworking",
                                     targets: ["UIKit_AFNetworking"])
                                 ],
                       targets: [.target(name: "AFNetworking",
